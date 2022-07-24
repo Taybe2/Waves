@@ -10,7 +10,7 @@ import ReduxStore from './store';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={ReduxStore()}>
-      <AppRoutes />
+      <App />
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

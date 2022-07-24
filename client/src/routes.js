@@ -103,4 +103,4 @@ const App = (props) => {
   );
 }
 
-export default AppRoutes;
+export default App;
