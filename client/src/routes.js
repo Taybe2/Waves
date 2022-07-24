@@ -23,7 +23,7 @@ import EditProduct from 'components/dashboard/admin/products/addedit/edit';
 import UserCart from 'components/dashboard/user/cart';
 import ManageSite from 'components/dashboard/admin/site';
 
-const AppRoutes = (props) => {
+const App = (props) => {
   const [loading, setLoading] = useState(true);
   const users = useSelector(state => state.users);
   const dispatch = useDispatch();
